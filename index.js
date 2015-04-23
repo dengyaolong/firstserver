@@ -5,6 +5,7 @@ var requestHandlers = require("./requestHandlers");
 var handle = {}
 handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
+handle["/show"] = requestHandlers.show;
 handle["/upload"] = requestHandlers.upload;
 handle["/startBlk"] = requestHandlers.startBlk;
 handle["/uploadBlk"] = requestHandlers.uploadBlk;
